@@ -1,0 +1,13 @@
+apiVersion: split.smi-spec.io/v1alpha2
+kind: TrafficSplit
+metadata:
+    name: helloworld-svc-failover
+    namespace: sample
+spec:
+    service: helloworld-svc
+    backends:
+        - service: helloworld-svc
+          weight: 50
+        - service: helloworld-svc-test2
+          weight: 50
+
