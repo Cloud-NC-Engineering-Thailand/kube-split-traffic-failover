@@ -1,6 +1,9 @@
 # Usage
 This repository is designed to help you to create a connection between two kubernetes clusters and help you to split traffic based on propotion with the failover cluster 
 
+## Diagram
+![Alt text](./assets/diagram.jpg)
+
 ### Before you begin
 You need 2 kubernetes clusters avaiable on any cloud platforms
 
